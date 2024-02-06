@@ -1,6 +1,6 @@
-keras_retinanet==1.0.0
-numpy==1.23.5
-opencv_python==4.7.0.72
-Pillow==10.2.0
-pydicom==2.3.1
-streamlit==1.24.0
+keras_retinanet
+numpy
+opencv_python
+Pillow
+pydicom
+streamlit
