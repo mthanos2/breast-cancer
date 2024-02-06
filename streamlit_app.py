@@ -70,7 +70,7 @@ def main():
     score_threshold = st.slider("Score Threshold", min_value=0.0, max_value=1.0, value=0.3)
 
     # Load RetinaNet model
-    model_path = './snapshots/resnet152_pascal.h5'
+    model_path = './resnet152_pascal.h5'
     model = models.load_model(model_path, backbone_name='resnet152')
     model = models.convert_model(model)
 
