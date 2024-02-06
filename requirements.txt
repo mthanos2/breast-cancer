@@ -1,6 +1,6 @@
-keras_retinanet
+keras-retinanet
 numpy
-opencv_python
+opencv-python
 Pillow
 pydicom
 streamlit
