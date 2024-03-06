@@ -12,7 +12,7 @@ from keras_retinanet.utils.colors import label_color
 
  # Mapping of class labels to names
 labels_to_names = {
-    11: 'Malignant'
+    11: ''
     }
 
 # Function to convert DICOM to RGB image
@@ -64,7 +64,7 @@ def process_and_display_image(image_path, model, score_threshold=0.3):
 
 # Streamlit app
 def main():
-    st.title("DICOM/Image Processing App")
+    st.title("Breast Cancer DICOM Processing App")
 
     uploaded_files = st.file_uploader("Upload DICOM or Image files", type=["dcm", "jpg", "jpeg", "png"], accept_multiple_files=True)
     score_threshold = st.slider("Score Threshold", min_value=0.0, max_value=1.0, value=0.3)

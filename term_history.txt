@@ -1,0 +1,84 @@
+❯ chmod 400 “breast.pem"
+dquote>
+❯ chmod 400 "breast.pem"
+❯ ssh -i “breast.pem" ubuntu@ec2-44-200-113-175.compute-1.amazonaws.com
+dquote>
+❯ ssh -i "breast.pem" ubuntu@ec2-44-200-113-175.compute-1.amazonaws.com
+The authenticity of host 'ec2-44-200-113-175.compute-1.amazonaws.com (44.200.113.175)' can't be established.
+ED25519 key fingerprint is SHA256:BI81OJt2qpCUR629gw6dC9vvcAxVpefCiJzpJcew8dk.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'ec2-44-200-113-175.compute-1.amazonaws.com' (ED25519) to the list of known hosts.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.2.0-1017-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Feb 12 05:23:51 UTC 2024
+
+  System load:  0.0                Processes:             147
+  Usage of /:   77.7% of 19.20GB   Users logged in:       0
+  Memory usage: 0%                 IPv4 address for ens5: 172.31.79.199
+  Swap usage:   0%
+
+ * Ubuntu Pro delivers the most comprehensive open source security and
+   compliance features.
+
+   https://ubuntu.com/aws/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+36 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+Last login: Sat Feb 10 16:09:27 2024 from 202.147.196.172
+ubuntu@ip-172-31-79-199:~$ Connection to ec2-44-200-113-175.compute-1.amazonaws.com closed by remote host.
+Connection to ec2-44-200-113-175.compute-1.amazonaws.com closed.
+❯ ssh -i "breast.pem" ubuntu@ec2-44-213-60-238.compute-1.amazonaws.com
+The authenticity of host 'ec2-44-213-60-238.compute-1.amazonaws.com (44.213.60.238)' can't be established.
+ED25519 key fingerprint is SHA256:BI81OJt2qpCUR629gw6dC9vvcAxVpefCiJzpJcew8dk.
+This host key is known by the following other names/addresses:
+    ~/.ssh/known_hosts:9: ec2-44-200-113-175.compute-1.amazonaws.com
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'ec2-44-213-60-238.compute-1.amazonaws.com' (ED25519) to the list of known hosts.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.2.0-1017-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Feb 12 05:30:52 UTC 2024
+
+  System load:  0.0                Processes:             158
+  Usage of /:   77.7% of 19.20GB   Users logged in:       0
+  Memory usage: 0%                 IPv4 address for ens5: 172.31.79.199
+  Swap usage:   0%
+
+ * Ubuntu Pro delivers the most comprehensive open source security and
+   compliance features.
+
+   https://ubuntu.com/aws/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+36 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+Last login: Mon Feb 12 05:23:54 2024 from 110.137.195.100
+ubuntu@ip-172-31-79-199:~$ Connection to ec2-44-213-60-238.compute-1.amazonaws.com closed by remote host.
+Connection to ec2-44-213-60-238.compute-1.amazonaws.com closed.
+~/E/breast-cancer main !1 ?1 ❯
